@@ -57,22 +57,13 @@ export default function Projects() {
             githubLink:
                 "https://github.com/Aleem-Ahmad/n8n-RAG-main",
         },
-        {
-            image: n8nRAG,
-            title: "n8n-RAG-main",
-            description:
-                "A simple learning project built with n8n to understand the basics of Retrieval-Augmented Generation (RAG).",
-            liveLink:
-                "https://aleem-ahmad.github.io/n8n-RAG-main/",
-            githubLink:
-                "https://github.com/Aleem-Ahmad/n8n-RAG-main",
-        },
+        
     ];
 
     return (
         <section id="projects">
             {projects.map((project) => (
-                <ProjectCard
+                <CardProject
                     key={project.title}
                     image={project.image}
                     title={project.title}
