@@ -1,5 +1,5 @@
 
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 
 import servify from "../assets/servify.png";
 import oldPortfolio from "../assets/oldPortfolio.png";
