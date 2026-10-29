@@ -87,7 +87,7 @@ export default function Hero() {
             <div id="home-right" className="home-fragment">
                 <div id="hero-img-wrapper">
                     <div id="hero-img-glow"></div>
-                    <img src="src/assets/aleem.png" alt="Aleem Ahmad - Full Stack Developer" />
+                    <img src="src\assets\aleem.png" alt="Aleem Ahmad - Full Stack Developer" />
                     <div id="hero-badge-floating">
                         <Code2 size={16} color="#4f46e5" />
                         <div>
