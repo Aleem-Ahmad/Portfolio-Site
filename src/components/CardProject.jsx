@@ -1,4 +1,4 @@
-export default function ProjectCard(props) {
+export default function CardProject(props) {
     return (
         <div className="project-card">
             <img src={image} alt={title} />
