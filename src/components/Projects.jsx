@@ -1,11 +1,11 @@
 
-import ProjectCard from "./components/ProjectCard";
+import ProjectCard from "./ProjectCard";
 
 import servify from "../assets/servify.png";
 import oldPortfolio from "../assets/oldPortfolio.png";
 import game from "../assets/game.png";
 import contactForm from "../assets/contactForm.png";
-import n8nRAG from "../assets/n8nRAG";
+import n8nRAG from "../assets/n8nRAG.png";
 
 export default function Projects() {
     const projects = [
