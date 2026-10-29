@@ -1,11 +1,11 @@
 
 import ProjectCard from "./components/ProjectCard";
 
-import servify from "./assets/servify.png";
-import oldPortfolio from "./assets/oldPortfolio.png";
-import game from "./assets/game.png";
-import contactForm from "./assets/contactForm.png";
-import n8nRAG from "./assets/n8nRAG";
+import servify from "../assets/servify.png";
+import oldPortfolio from "../assets/oldPortfolio.png";
+import game from "../assets/game.png";
+import contactForm from "../assets/contactForm.png";
+import n8nRAG from "../assets/n8nRAG";
 
 export default function Projects() {
     const projects = [
@@ -46,6 +46,16 @@ export default function Projects() {
                 "https://aleem-ahmad.github.io/contact-form/",
             githubLink:
                 "https://github.com/Aleem-Ahmad/contact-form",
+        },
+        {
+            image: n8nRAG,
+            title: "n8n-RAG-main",
+            description:
+                "A simple learning project built with n8n to understand the basics of Retrieval-Augmented Generation (RAG).",
+            liveLink:
+                "https://aleem-ahmad.github.io/n8n-RAG-main/",
+            githubLink:
+                "https://github.com/Aleem-Ahmad/n8n-RAG-main",
         },
         {
             image: n8nRAG,
